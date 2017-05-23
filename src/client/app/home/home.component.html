@@ -1,4 +1,4 @@
-<p>Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.</p>
+<!--<p>Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.</p>
 
 <form (submit)="addName()">
   <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
@@ -7,4 +7,13 @@
 
 <ul>
   <li *ngFor="let name of names">{{name}}</li>
-</ul>
+</ul>-->
+ <div>
+      <h2>{{ 'HOME.TITLE' | translate }}</h2>
+      <label>
+        {{ 'HOME.SELECT' | translate }}
+        <select #langSelect (change)="translate.use(langSelect.value)">
+          <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+        </select>
+      </label>
+    </div>

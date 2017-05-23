@@ -1,6 +1,7 @@
 {
   "name": "angular-seed",
   "version": "1.0.0",
+  "main": "main.js",
   "description": "Modular starter project for Angular 2 (and beyond) with statically typed build and AoT compilation",
   "repository": {
     "url": "https://github.com/mgechev/angular-seed"
@@ -41,7 +42,8 @@
     "webdriver-start": "webdriver-manager start",
     "webdriver-update": "./node_modules/protractor/bin/webdriver-manager update",
     "compodoc": "./node_modules/.bin/compodoc -p src/client/tsconfig.json",
-    "serve.compodoc": "./node_modules/.bin/compodoc -s"
+    "serve.compodoc": "./node_modules/.bin/compodoc -s",
+    "electron": "electron ."
   },
   "author": "Minko Gechev <mgechev>",
   "license": "MIT",
@@ -147,6 +149,8 @@
     "@angular/platform-browser-dynamic": "^4.1.1",
     "@angular/router": "^4.1.1",
     "@angular/service-worker": "^1.0.0-beta.14",
+    "@ngx-translate/core": "^6.0.1",
+    "@ngx-translate/http-loader": "0.0.3",
     "core-js": "^2.4.1",
     "intl": "^1.2.5",
     "rxjs": "^5.2.0",
