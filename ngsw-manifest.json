@@ -1,0 +1,31 @@
+{
+  "static": {
+    "urls": {
+      "/index.html": "810033c2490eaea4ada6d93b7ef13ec1b8651371",
+      "/worker-basic.min.js": "93904d94c0bef0479f1ec0b182788f4301d9f28e",
+      "/assets/data.json": "4442de734b100da8d244b35d34a355dee4dd9618",
+      "/css/main.css": "6f4f705b800c29f9fb78d0ea9ac0badf9ae31f83",
+      "/js/app.js": "654b96b4ebf17943a1a1b7617b70b77dd20e1dc4",
+      "/js/shims.js": "d7a0a6eafaecccdf0a4cd799f86b4cd37cb1aa47",
+      "/assets/favicon/favicon-DEV.ico": "aa4fb0706ed367fb5c2fd6bd2b058c0dce8cc785",
+      "/assets/favicon/favicon-PROD.ico": "5d40a29d26398292f08a46b26f6788ec60f5f43e",
+      "/assets/i18n/cz.json": "78f3b24cd2906b20469649eafd4d19befa023bf9",
+      "/assets/i18n/en.json": "50855fa765c7aaa8f9e38d65cdb12b1f51deb4a7",
+      "/assets/i18n/fr.json": "1d1bae4e612244e78c6611e8a523796be9a1e353",
+      "/assets/i18n/ml.json": "341a8da0ded3c3bd38e91b044d746e0e31140833",
+      "/assets/svg/more.svg": "9838cd822e0f989a0befbd365365ee2751bbdebc"
+    }
+  },
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "prefix": false
+      }
+    }
+  },
+  "push": {
+    "showNotifications": true,
+    "backgroundOnly": false
+  }
+}
