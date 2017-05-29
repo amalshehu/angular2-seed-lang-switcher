@@ -1,6 +1,13 @@
 {
   "HOME": {
+    "NAME":"Angular seed",
     "TITLE": "Hello Angular !",
-    "SELECT": "Change language"
+    "SELECT": "Change language",
+    "CONTENT": "Everyone learns differently. You don't have to read the documentation straight through. Most pages stand on their own. Those new to Angular may wish to follow this popular learning path. "
+
+  },
+  "NAV":{
+    "HOME":"HOME",
+    "ABOUT":"ABOUT"
   }
 }

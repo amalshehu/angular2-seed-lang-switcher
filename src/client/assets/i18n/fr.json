@@ -1,6 +1,12 @@
 {
   "HOME": {
+    "NAME":"Graine angulaire",
     "TITLE": "Bonjour Angular !",
-    "SELECT": "Changer la langue"
+    "SELECT": "Changer la langue",
+    "CONTENT": "Tout le monde apprend différemment. Vous n'avez pas à lire la documentation directement. La plupart des pages se tiennent seules. Les nouveaux chez Angular souhaiteront suivre ce chemin d'apprentissage populaire. "
+  },
+  "NAV":{
+    "HOME":"MAISON",
+    "ABOUT":"SUR"
   }
 }

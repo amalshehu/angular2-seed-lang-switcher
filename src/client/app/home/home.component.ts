@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   newName: string = '';
   errorMessage: string;
   names: any[] = [];
+  selectedLang:any;
   /**
    * Creates an instance of the HomeComponent with the injected
    * NameListService.
@@ -22,11 +23,11 @@ export class HomeComponent implements OnInit {
    * @param {NameListService} nameListService - The injected NameListService.
    */
   constructor(public nameListService: NameListService, public translate: TranslateService) {
-     translate.addLangs(['en', 'fr']);
+     translate.addLangs(['en', 'fr', 'cz', 'ml']);
      translate.setDefaultLang('en');
 
       let browserLang = translate.getBrowserLang();
-      translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');
+      translate.use(browserLang.match(/en|fr|cz| ml/) ? browserLang : 'en');
   }
 
   /**

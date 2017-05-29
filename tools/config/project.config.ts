@@ -52,6 +52,15 @@ export class ProjectConfig extends SeedConfig {
       name: '@ngx-translate/http-loader',
       // Path to the package's bundle
       path: 'node_modules/@ngx-translate/http-loader/bundles/http-loader.umd.js'
+    },
+    {
+      name: '@angular/material',
+      // Path to the package's bundle
+      path: 'node_modules/@angular/material/bundles/material.umd.js'
+    },{
+      name: '@angular/flex-layout',
+      // Path to the package's bundle
+      path: 'node_modules/@angular/flex-layout/bundles/flex-layout.umd.js'
     }];
 
     this.addPackagesBundles(additionalPackages);
